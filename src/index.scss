@@ -49,6 +49,17 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-title {
+    display: block; /* Ensure it is visible on large screens */
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-title {
+    display: none; /* Hide on smaller screens */
+  }
+}
 .navigation-bar-responsive {
   span, p {
     color: #0d1116;

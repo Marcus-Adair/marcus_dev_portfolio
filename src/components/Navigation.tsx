@@ -123,6 +123,7 @@ function Navigation({ parentToChild, modeChange }: any) {
             }}
           >
             <Typography
+              className="navbar-title"
               variant="h6"
               component="a"
               href="/" // Replace with your desired link
