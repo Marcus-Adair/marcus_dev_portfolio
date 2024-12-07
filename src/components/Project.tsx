@@ -7,7 +7,7 @@ import SEDE_pic from "../assets/images/SEDE_screenshot.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
-  const project_pic_size = "24rem";
+  const project_pic_size = "20rem";
 
   return (
     <div className="projects-container" id="projects">
