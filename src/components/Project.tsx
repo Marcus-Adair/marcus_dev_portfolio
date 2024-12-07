@@ -1,11 +1,14 @@
 import React from "react";
 import ODF_dash_pic_1 from "../assets/images/ODF_dash_pic_1.png";
 import ELM_2048_pic from "../assets/images/ELM_2048_pic.png";
-import FQs_paper_pic from "../assets/images/fqs_dagman_paper_photo.png";
+import FQs_paper_pic from "../assets/images/ODF_git_paper_2.png";
+import SEDE_pic from "../assets/images/SEDE_screenshot.png";
 
 import "../assets/styles/Project.scss";
 
 function Project() {
+  const project_pic_size = "24rem";
+
   return (
     <div className="projects-container" id="projects">
       <h1>Projects</h1>
@@ -24,7 +27,12 @@ function Project() {
               src={ODF_dash_pic_1}
               className="zoom"
               alt="thumbnail"
-              width="100%"
+              style={{
+                width: "100%",
+                height: project_pic_size,
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
             />
           </a>
           <a
@@ -54,7 +62,12 @@ function Project() {
               src={ELM_2048_pic}
               className="zoom"
               alt="thumbnail"
-              width="100%"
+              style={{
+                width: "100%",
+                height: project_pic_size,
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
             />
           </a>
           <a
@@ -69,11 +82,44 @@ function Project() {
 
         <div className="project">
           {/*  
+                SEDE
+            */}
+          <a
+            href="https://drive.google.com/drive/folders/1p6R3zL03XLPOm3x2jNea5T9apxR6reDN?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={SEDE_pic}
+              className="zoom"
+              alt="thumbnail"
+              style={{
+                width: "100%",
+                height: project_pic_size,
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
+            />
+          </a>
+          <a
+            href="https://drive.google.com/drive/folders/1p6R3zL03XLPOm3x2jNea5T9apxR6reDN?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>
+              Spatial Enrichment Data Engine (SEDE) - Senior Capstone Project{" "}
+            </h2>
+          </a>
+          <p>Front-End lead on INL-sponsored Senior capstone project ....</p>
+        </div>
+
+        <div className="project">
+          {/*  
             
                 Undergrad Paper
             */}
           <a
-            href="https://dl.acm.org/doi/10.1145/3624062.3624276"
+            href="https://github.com/Marcus-Adair/Accelerating-Data-Intensive-Seismic-Research-Through-Parallel-Workflow-Optimization-and-Federated-CI"
             target="_blank"
             rel="noreferrer"
           >
@@ -81,11 +127,16 @@ function Project() {
               src={FQs_paper_pic}
               className="zoom"
               alt="thumbnail"
-              width="100%"
+              style={{
+                width: "100%",
+                height: project_pic_size,
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
             />
           </a>
           <a
-            href="https://dl.acm.org/doi/10.1145/3624062.3624276"
+            href="https://github.com/Marcus-Adair/Accelerating-Data-Intensive-Seismic-Research-Through-Parallel-Workflow-Optimization-and-Federated-CI"
             target="_blank"
             rel="noreferrer"
           >
