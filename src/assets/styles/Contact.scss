@@ -7,9 +7,13 @@
 
 
 .contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
+  // font-size: 1em;
+  // vertical-align: middle;
+  // margin-right: 5px;
+
+    vertical-align: middle;
+    text-align: center;
+
 }
 
 .contact-form {
@@ -53,4 +57,13 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+
+
+/* Centering <a> within its containing div */
+.centered-container {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+
 }

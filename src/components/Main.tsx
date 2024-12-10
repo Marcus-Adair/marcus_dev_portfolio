@@ -44,9 +44,8 @@ function Main() {
           </>
 
           <p>
-            I've been passionate about tech since forever. I enjoy developing
-            software applications, solving complex problems, collaborating as
-            apart of a team, and more.
+            I'm a tech enthusiast with a passion for building software, solving
+            problems, and collaborating with great teams and great people!
           </p>
 
           <>
@@ -54,23 +53,17 @@ function Main() {
           </>
 
           <p>
-            I'm currently studying at the University of Utah (UofU) while
-            pursuing master of science in Computer Science.
+            Currently, I'm pursuing a Master's in Computer Science at the
+            University of Utah (UofU) and working as a Graduate Research
+            Assistant at the Scientific Computing and Imaging (SCI) Institute at
+            the UofU.
           </p>
 
           <>
             <br />
           </>
+          <p>This website is a showcase of some of my projects and work :)</p>
 
-          <p>
-            I work as a graduate research assistant for the Scientific Computing
-            and Imaging Institute at the UofU.
-          </p>
-
-          <>
-            <br />
-          </>
-          <p>This website is a place to present my work and projects :)</p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/Marcus-Adair"

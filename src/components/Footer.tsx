@@ -18,21 +18,21 @@ function Footer() {
         >
           <GitHubIcon />
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/marcus-adair-a46aa917a/"
           target="_blank"
           rel="noreferrer"
         >
           <LinkedInIcon />
-        </a>
+        </a> */}
 
-        <a
+        {/* <a
           href="mailto:marcus.a.adair@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
           <EmailIcon />
-        </a>
+        </a> */}
       </div>
     </footer>
   );

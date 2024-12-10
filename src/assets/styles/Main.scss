@@ -1,6 +1,18 @@
 .dark-mode .about-section {
     background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.dark-mode  {
+    font-family: 'Courier New', Courier, monospace;
+
+
+  p, a, h1, h2, h3, h4, h5, label, button {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+}
+
 
 .about-section {
     display: flex;
@@ -14,9 +26,11 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about-section .content {
+    font-family: 'Courier New', Courier, monospace;
     text-align: left;
     z-index: 2;
 
@@ -37,6 +51,7 @@
 
     p {
         font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
         margin-block-start: 0px;
         margin-block-end: 0px;
     }
@@ -44,6 +59,7 @@
 
     p2 {
         font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
         margin-block-start: 0px;
         margin-block-end: 0px;
         font-weight: bold;
@@ -53,6 +69,7 @@
 
     h1 {
         font-size: 3em;
+        font-family: 'Courier New', Courier, monospace;
         margin-block-start: 0px;
         margin-block-end: 0px;
     }

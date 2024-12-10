@@ -16,33 +16,51 @@ import "../assets/styles/Skills.scss";
 
 const labelsFirst = [
   "Python",
-  "Plotly Dash",
-  "React",
-  "Angular",
   "TypeScript",
   "JavaScript",
   "HTML",
   "CSS",
+  "C#",
+  "Angular",
+  "React",
+  "Plotly Dash",
+  ".NET",
   "Flask",
-  "Python",
   "SQL",
   "Git",
+  "Version Control",
+  "REST APIs",
+  "Agile",
+  "Algorithms",
 ];
 
 const labelsSecond = [
+  "Bash",
+  "CI/CD",
   "GitHub Actions",
   "AWS",
+  "ECS Fargate",
+  "AWS Lambda",
+  "S3 Storage",
+  "Infrastructure as Code (IaC)",
   "CloudFormation",
+  "AWS CDK",
   "Docker",
   "Singularity",
+  "Monitoring & Logging",
 ];
 
 const labelsThird = [
-  "Academic Writing",
-  "Overleaf",
-  "Communication",
-  "Collaboration",
   "Research",
+  "Academic Writing",
+  "Written Communication",
+  "Oral Communication",
+  "Overleaf",
+  "LaTeX",
+  "Collaboration",
+  "Literature Review",
+  "Experimental Design",
+  "Presentation Skills",
 ];
 
 function Skills() {
@@ -56,13 +74,14 @@ function Skills() {
             <FontAwesomeIcon icon={faCode} size="3x" />
             <h3>Software Development</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as React and Flask. I have a strong
-              proficiency in the SDLC process and frontend + backend
-              development.
+              I have built a wide range of applications using modern
+              technologies such as React and Flask. My academic journey—both
+              undergraduate and master's studies in Computer Science at the
+              University of Utah—has provided me with a strong foundation in
+              software development principles and best practices.
             </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <span className="chip-title">Skills:</span>
               {labelsFirst.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}
@@ -73,9 +92,16 @@ function Skills() {
           <div className="skill">
             <FontAwesomeIcon icon={faGear} size="3x" />
             <h3>DevOps</h3>
-            <p>.....</p>
+            <p>
+              I have hands-on experience in DevOps through the design and
+              deployment of a full-stack web application featuring an AWS Cloud
+              workflows. My projects involve AWS Lambda functions, ECS Fargate
+              deployment, a Dockerized web-app and Dockerized simulations, and
+              more. Additionally, I implemented a CI/CD pipeline that automated
+              Docker image building and ECS Fargate deployments.
+            </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <span className="chip-title">Skills:</span>
               {labelsSecond.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}
@@ -87,11 +113,15 @@ function Skills() {
             <FontAwesomeIcon icon={faBook} size="3x" />
             <h3>Research</h3>
             <p>
-              As an undergraduate and graduate student, I conducted research at
-              the Scientific Computing and Imaging Institude in Salt Lake City.
+              During my undergraduate and graduate studies, I developed strong
+              research and communication skills, including designing and
+              conducting experiments and collaborating in multi-disciplinary
+              research teams. I authored a 10-page academic paper published in
+              Proceedings of SC '23 and presented my findings at WORKS23, a
+              workshop held at SC '23.
             </p>
             <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
+              <span className="chip-title">Skills:</span>
               {labelsThird.map((label, index) => (
                 <Chip key={index} className="chip" label={label} />
               ))}

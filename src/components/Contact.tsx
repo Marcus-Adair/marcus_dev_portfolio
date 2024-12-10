@@ -1,67 +1,106 @@
 import React, { useRef, useState } from "react";
 import "../assets/styles/Contact.scss";
-// import emailjs from '@emailjs/browser';
+// import emailjs from "@emailjs/browser";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import TextField from "@mui/material/TextField";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
 
 function Contact() {
-  const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState<string>("");
-  const [message, setMessage] = useState<string>("");
+  //   const [name, setName] = useState<string>("");
+  //   const [email, setEmail] = useState<string>("");
+  //   const [message, setMessage] = useState<string>("");
 
-  const [nameError, setNameError] = useState<boolean>(false);
-  const [emailError, setEmailError] = useState<boolean>(false);
-  const [messageError, setMessageError] = useState<boolean>(false);
+  //   const [nameError, setNameError] = useState<boolean>(false);
+  //   const [emailError, setEmailError] = useState<boolean>(false);
+  //   const [messageError, setMessageError] = useState<boolean>(false);
 
-  const form = useRef();
+  //   const form = useRef();
 
-  const sendEmail = (e: any) => {
-    e.preventDefault();
+  //   const sendEmail = (e: any) => {
+  //     e.preventDefault();
 
-    setNameError(name === "");
-    setEmailError(email === "");
-    setMessageError(message === "");
+  //     setNameError(name === "");
+  //     setEmailError(email === "");
+  //     setMessageError(message === "");
 
-    /* Uncomment below if you want to enable the emailJS */
+  //     /* Uncomment below if you want to enable the emailJS */
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+  //     // if (name !== '' && email !== '' && message !== '') {
+  //     //   var templateParams = {
+  //     //     name: name,
+  //     //     email: email,
+  //     //     message: message
+  //     //   };
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
-  };
+  //     //   console.log(templateParams);
+  //     //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
+  //     //     (response) => {
+  //     //       console.log('SUCCESS!', response.status, response.text);
+  //     //     },
+  //     //     (error) => {
+  //     //       console.log('FAILED...', error);
+  //     //     },
+  //     //   );
+  //     //   setName('');
+  //     //   setEmail('');
+  //     //   setMessage('');
+  //     // }
+  //   };
+
+  const icon_font_style = { fontSize: "3rem" };
 
   return (
     <div id="contact">
       <div className="items-container" id="contact">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Please reach out!</p>
-          <Box
+          <h1>Contact</h1>
+
+          <div className="centered-container">
+            <p>Please reach out:</p>
+          </div>
+          <div className="centered-container">
+            <a
+              href="mailto:marcus.a.adair@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <EmailIcon style={icon_font_style} />
+            </a>
+
+            <a href="tel:+8012009857" target="_blank" rel="noreferrer">
+              <PhoneIcon style={icon_font_style} />
+            </a>
+
+            <a
+              href="https://github.com/Marcus-Adair"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon style={icon_font_style} />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/marcus-adair-a46aa917a/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon style={icon_font_style} />
+            </a>
+          </div>
+
+          {/* <Box
             ref={form}
             component="form"
             noValidate
             autoComplete="off"
             className="contact-form"
-          >
-            <div className="form-flex">
+          > */}
+          {/* <div className="form-flex">
               <TextField
                 required
                 id="outlined-required"
@@ -88,8 +127,9 @@ function Contact() {
                   emailError ? "Please enter your email or phone number" : ""
                 }
               />
-            </div>
-            <TextField
+            </div> */}
+
+          {/* <TextField
               required
               id="outlined-multiline-static"
               label="Message"
@@ -104,14 +144,16 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button
+             */}
+          {/* <Button
               variant="contained"
               endIcon={<SendIcon />}
               onClick={sendEmail}
             >
               Send
-            </Button>
-          </Box>
+            </Button> */}
+
+          {/* </Box> */}
         </div>
       </div>
     </div>

@@ -43,8 +43,11 @@ function Project() {
             <h2>On-Demand Fakequakes</h2>
           </a>
           <p>
-            Developed ..... using Python Plotly Dash, AWS services (ECS, S3,
-            Lambda, CDK, CloudFormation, EFS, more)
+            For my MS project, I am developing On-Demand Fakequakes, a
+            full-stack web application (Python Plotly Dash, Flask) featuring a
+            parallel AWS Cloud workflow and a CI/CD pipeline using GitHub
+            actions. This project builds on a summer initiative I started as an
+            intern at the University of Oregon and is intended for use by NASA.
           </p>
         </div>
 
@@ -77,7 +80,11 @@ function Project() {
           >
             <h2>ELM 2048 </h2>
           </a>
-          <p>Developed 2048 using ELM for Funcitonal Programming class</p>
+          <p>
+            For my Functional Programming graduate-level course in Spring 2024,
+            I recreated the classic game 2048 using ELM, a functional
+            programming language.
+          </p>
         </div>
 
         <div className="project">
@@ -107,10 +114,17 @@ function Project() {
             rel="noreferrer"
           >
             <h2>
-              Spatial Enrichment Data Engine (SEDE) - Senior Capstone Project{" "}
+              Spatial Enrichment Data Engine (SEDE) - Senior Capstone Project
             </h2>
           </a>
-          <p>Front-End lead on INL-sponsored Senior capstone project ....</p>
+          <p>
+            I served as the front-end lead on SEDE, a geocoding web application
+            developed for my BS senior capstone project in collaboration with
+            Idaho National Laboratory. The front-end was built with
+            Angular/TypeScript and integrated Esri ArcGIS components. Although
+            no longer deployed publicly, this project provided valuable insights
+            into collaborative software development.
+          </p>
         </div>
 
         <div className="project">
@@ -143,8 +157,11 @@ function Project() {
             <h2>Fakequakes DAGMan Workflow - Undergraduate Research </h2>
           </a>
           <p>
-            Developed the FQs DAGMan Workflow..... published paper in WORKS 2023
-            ...
+            While serving as an undergraduate research assistant, I developed
+            the Fakequakes Dagman Workflow, a high-throughput computing workflow
+            utilizing Bash scripting, Python, HTCondor, Singularity, and other
+            tools. This workflow was designed to enable accelerated earthquake
+            simulations through Open Science Grid.
           </p>
         </div>
 
