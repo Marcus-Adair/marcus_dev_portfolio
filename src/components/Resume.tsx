@@ -4,8 +4,8 @@ import Button from "@mui/material/Button";
 import DownloadIcon from "@mui/icons-material/Download";
 
 function Resume() {
-  const resume_path = "/Marcus_Adair_Resume_v2.pdf";
-
+  //const resume_path = "/Marcus_Adair_Resume_v2.pdf"; // "/Marcus_Adair_Resume_v2.pdf";
+  const resume_path = `${process.env.PUBLIC_URL}/Marcus_Adair_Resume_v2.pdf`;
   return (
     <div className="resume-container" id="resume">
       <div className="resume">
