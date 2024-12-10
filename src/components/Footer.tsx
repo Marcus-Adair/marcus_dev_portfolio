@@ -12,7 +12,7 @@ function Footer() {
         <a>© 2024 Marcus Adair. All rights reserved.</a>
         <a> </a>
         <a
-          href="https://github.com/Marcus-Adair"
+          href="https://github.com/Marcus-Adair/marcus_dev_portfolio"
           target="_blank"
           rel="noreferrer"
         >
