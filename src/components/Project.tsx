@@ -1,5 +1,5 @@
 import React from "react";
-import ODF_dash_pic_1 from "../assets/images/ODF_dash_pic_1.png";
+import ODF_dash_pic_1 from "../assets/images/ODF_dash_pic_2.png";
 import ELM_2048_pic from "../assets/images/ELM_2048_pic.png";
 import FQs_paper_pic from "../assets/images/ODF_git_paper_2.png";
 import SEDE_pic from "../assets/images/SEDE_screenshot.png";
@@ -19,7 +19,7 @@ function Project() {
                 ODF
             */}
           <a
-            href="http://odfiac-odfda-uhmotsgrpa4r-53250506.us-west-2.elb.amazonaws.com/"
+            href="https://ondemandfakequakes.org"
             target="_blank"
             rel="noreferrer"
           >
