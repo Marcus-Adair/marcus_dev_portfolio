@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/marcus_dev_portfolio/static/css/main.4681e6db.css",
+    "main.js": "/marcus_dev_portfolio/static/js/main.4e3f74c1.js",
+    "static/js/453.64be9eb2.chunk.js": "/marcus_dev_portfolio/static/js/453.64be9eb2.chunk.js",
+    "static/media/SEDE_screenshot.png": "/marcus_dev_portfolio/static/media/SEDE_screenshot.09c88270bdbed69f1334.png",
+    "static/media/ODF_dash_pic_2.png": "/marcus_dev_portfolio/static/media/ODF_dash_pic_2.41c763795a3ade62e32b.png",
+    "static/media/ODF_git_paper_2.png": "/marcus_dev_portfolio/static/media/ODF_git_paper_2.d20ba19cf31c3a777b4b.png",
+    "static/media/ELM_2048_pic.png": "/marcus_dev_portfolio/static/media/ELM_2048_pic.c89c4fa197d980122893.png",
+    "static/media/marcus_headshot.jpeg": "/marcus_dev_portfolio/static/media/marcus_headshot.51ee1c5d5b00f281d34d.jpeg",
+    "index.html": "/marcus_dev_portfolio/index.html",
+    "main.4681e6db.css.map": "/marcus_dev_portfolio/static/css/main.4681e6db.css.map",
+    "main.4e3f74c1.js.map": "/marcus_dev_portfolio/static/js/main.4e3f74c1.js.map",
+    "453.64be9eb2.chunk.js.map": "/marcus_dev_portfolio/static/js/453.64be9eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4681e6db.css",
+    "static/js/main.4e3f74c1.js"
+  ]
+}
