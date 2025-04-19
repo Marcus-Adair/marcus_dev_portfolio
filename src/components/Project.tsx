@@ -3,6 +3,7 @@ import ODF_dash_pic_1 from "../assets/images/ODF_dash_pic_2.png";
 import ELM_2048_pic from "../assets/images/ELM_2048_pic.png";
 import FQs_paper_pic from "../assets/images/ODF_git_paper_2.png";
 import SEDE_pic from "../assets/images/SEDE_screenshot.png";
+import ALPS_pic from "../assets/images/alps_git_repo_screenshot.png";
 
 import "../assets/styles/Project.scss";
 
@@ -36,7 +37,7 @@ function Project() {
             />
           </a>
           <a
-            href="http://odfiac-odfda-uhmotsgrpa4r-53250506.us-west-2.elb.amazonaws.com/"
+            href="https://ondemandfakequakes.org"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,6 +85,45 @@ function Project() {
             For my Functional Programming graduate-level course in Spring 2024,
             I recreated the classic game 2048 using ELM, a functional
             programming language.
+          </p>
+        </div>
+
+        <div className="project">
+          {/*  
+            
+                ALPS
+            */}
+          <a
+            href="https://github.com/Marcus-Adair/alps_project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={ALPS_pic}
+              className="zoom"
+              alt="thumbnail"
+              style={{
+                width: "100%",
+                height: project_pic_size,
+                objectFit: "cover",
+                objectPosition: "center",
+              }}
+            />
+          </a>
+          <a
+            href="https://github.com/Marcus-Adair/alps_project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>ALPS</h2>
+          </a>
+          <p>
+            I developed a Python CLI tool called ALPS (Automatic Least-Privilege
+            Policy Suggestor) for my Spring 2025 Software & Systems Security
+            course. Designed for AWS projects using the Cloud Development Kit
+            (CDK), ALPS parses synthesized Python CDK code, identifies insecure
+            IAM policies, and suggests least-privilege alternatives through
+            warning messages and CDK code snippets.
           </p>
         </div>
 

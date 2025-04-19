@@ -77,19 +77,19 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/Marcus-Adair"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <GitHubIcon style={icon_font_style} />
-            </a>
-
-            <a
               href="https://www.linkedin.com/in/marcus-adair-a46aa917a/"
               target="_blank"
               rel="noreferrer"
             >
               <LinkedInIcon style={icon_font_style} />
+            </a>
+
+            <a
+              href="https://github.com/Marcus-Adair"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon style={icon_font_style} />
             </a>
           </div>
 
