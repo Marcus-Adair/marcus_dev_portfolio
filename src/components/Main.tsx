@@ -3,7 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import "../assets/styles/Main.scss";
-import marcus_headshot from "../assets/images/marcus_headshot.jpeg";
+import marcus_headshot from "../assets/images/new_marcus_headshot_square.jpg";
 
 function Main() {
   return (
@@ -43,20 +43,20 @@ function Main() {
             <br />
           </>
 
-          <p>
+          {/* <p>
             I'm a tech enthusiast with a passion for building software, solving
             problems, and collaborating with great teams and great people!
           </p>
 
           <>
             <br />
-          </>
+          </> */}
 
           <p>
             Currently, I'm pursuing a Master's in Computer Science at the
-            University of Utah (UofU) and working as a Graduate Research
+            University of Utah (U of U) and working as a Graduate Research
             Assistant at the Scientific Computing and Imaging (SCI) Institute at
-            the UofU.
+            the U of U.
           </p>
 
           <>
